@@ -4,9 +4,11 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class ResultPage extends StatefulWidget {
   const ResultPage({
+    required this.pointsScored,
     Key? key,
   }) : super(key: key);
 
+  final int pointsScored;
   @override
   State<ResultPage> createState() => _ResultPage();
 }
@@ -41,10 +43,10 @@ class _ResultPage extends State<ResultPage> {
           SizedBox(
             height: MediaQuery.of(context).size.height / 8,
           ),
-          const Center(
+          Center(
             child: Text(
-              "Zdobyłes ............. etc ",
-              style: TextStyle(
+              "Zdobyłes ${widget.pointsScored} punktów na 10! Brawo ",
+              style: const TextStyle(
                   color: Colors.black,
                   inherit: false,
                   fontSize: 20,

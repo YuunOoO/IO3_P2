@@ -1,4 +1,8 @@
 class Query {
-  String category;
-  Query(this.category);
+  List<String> answers;
+  int correctAnswer;
+  Query(
+    this.answers,
+    this.correctAnswer,
+  );
 }

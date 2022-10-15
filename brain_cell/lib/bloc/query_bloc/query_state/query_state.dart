@@ -1,5 +1,10 @@
+import 'package:brain_cell/models/query_model.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class QueryState extends Equatable {
-  const QueryState();
+  final Query query;
+  const QueryState(this.query);
+
+  @override
+  List<Object> get props => [];
 }

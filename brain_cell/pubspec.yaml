@@ -38,6 +38,7 @@ dependencies:
   flutter_bloc: ^8.1.1
   equatable: ^2.0.5
   percent_indicator: ^4.2.2
+  shimmer: ^2.0.0
 
 dev_dependencies:
   flutter_test:

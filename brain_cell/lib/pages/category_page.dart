@@ -13,38 +13,36 @@ class CategoryPage extends StatefulWidget {
 class _CategoryPage extends State<CategoryPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        color: Colors.grey,
-        child: ListView(
-          children: [
-            const Center(
-              child: Text(
-                "Wybierz kategorie!",
-                style: TextStyle(
-                    fontSize: 30, inherit: false, color: Colors.purple),
-              ),
+    return Container(
+      color: Colors.grey,
+      child: ListView(
+        children: [
+          const Center(
+            child: Text(
+              "Wybierz kategorie!",
+              style:
+                  TextStyle(fontSize: 30, inherit: false, color: Colors.purple),
             ),
-            GridView.count(
-              primary: false,
-              physics: const NeverScrollableScrollPhysics(),
-              padding: const EdgeInsets.all(20),
-              shrinkWrap: true, // You won't see infinite size error
-              crossAxisSpacing: 14,
-              mainAxisSpacing: 14,
-              crossAxisCount: 2,
-              children: [
-                category('Geografia'),
-                category('Matematyka'),
-                category('Muzyka'),
-                category('Chemia'),
-                category('Biologia'),
-                category('Fizyka'),
-                category('Filmy'),
-              ],
-            ),
-          ],
-        ),
+          ),
+          GridView.count(
+            primary: false,
+            physics: const NeverScrollableScrollPhysics(),
+            padding: const EdgeInsets.all(20),
+            shrinkWrap: true, // You won't see infinite size error
+            crossAxisSpacing: 14,
+            mainAxisSpacing: 14,
+            crossAxisCount: 2,
+            children: [
+              category('Geografia'),
+              category('Matematyka'),
+              category('Muzyka'),
+              category('Chemia'),
+              category('Biologia'),
+              category('Fizyka'),
+              category('Filmy'),
+            ],
+          ),
+        ],
       ),
     );
   }
@@ -52,7 +50,7 @@ class _CategoryPage extends State<CategoryPage> {
   Widget category(String categoryName) {
     return GestureDetector(
       onTap: (() {
-        Navigator.pushReplacement(
+        Navigator.push(
           context,
           MaterialPageRoute(
               builder: (context) => WelcomePage(category: categoryName)),
