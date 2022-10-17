@@ -1,0 +1,26 @@
+WSZYSTKO UMIESZCZAMY W PLIKU bibliografia.bib !!!
+
+WZÓR:
+
+@online{www1,
+  TITLE =        {Wytłumaczenie definicji Transformacji Fouriera},
+  URL =    		 {https://www.jezzamon.com/fourier/pl.html},
+  URLDATE =		 {2022-01-07}
+}
+@online{www2,
+	TITLE =        {Transformacja Fouriera - Wikipedia},
+	URL =    		 {https://pl.wikipedia.org/wiki/Transformacja_Fouriera},
+	URLDATE =		 {2022-01-10}
+}
+
+@online{www3,
+	TITLE =        {Materiały odnośnie czujników wykorzystanych w projekcie},
+	URL =    		 {https://stackoverflow.com/},
+	URLDATE =		 {2021-12-22}
+}
+
+WKLEJAMY DO dokument.tex \printbibliography:
+
+\nocite{www1}
+\nocite{www2}
+\nocite{www3}

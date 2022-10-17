@@ -1,0 +1,58 @@
+	\newpage
+\section{Scenariusze przypadków użycia}  %6
+\textbf{a) Scenariusze użytkownika.}
+\newline \textit{\underline{Scenariusz nr 1}}
+\newline \textbf{Tytuł:} Logowanie
+\newline \textbf{Warunek wejścia:} Posiada konto
+\newline \textbf{Przebieg:} Użytkownik podejmuje próbę logowania. Podaje niezbędne dane (login, hasło).  
+\newline \textbf{Zakończenie:} Jeśli próba logowania jest pozytywna - zyskuje dostęp do pełnej funkcjonalności aplikacji, w przeciwnym razie dostaje kolejną możliwość wprowadzenia danych logowania.
+\newline \textbf{Zakończenie alternatywne:} Jeśli użytkownik nie posiada konta dostanie możliwość wykonania scenariusza nr 2 (Rejestracja).
+\newline\newline \textit{\underline{Scenariusz nr 2}}, 
+\newline \textbf{Tytuł:} Rejestracja
+\newline \textbf{Warunek wejścia:} Musi wejść do aplikacji (kliknąć w ikonę aplikacji).
+\newline \textbf{Przebieg:} Użytkownik dostaje możliwość stworzenia swojego profilu, który jest konieczny do skorzystania z aplikacji.
+\newline \textbf{Zakończenie:} Jeśli rejestracja przebiegnie pomyślnie użytkownik dostanie możliwość zalogowania się do aplikacji.
+\newline \textbf{Zakończenie alternatywne:} W przypadku podania błędnych danych nastąpi wyświetlenie komunikatu błędu i możliwość podjęcia kolejnej próby.
+\newline\newline \textit{\underline{Scenariusz nr 3}}
+\newline \textbf{Tytuł:} Sprawdzenie osiągnięć
+\newline \textbf{Warunek wejścia:} Użytkownik jest zalogowany i znajduje się w głównym menu.
+\newline \textbf{Przebieg:} Użytkownik w menu głównym klika w Osiągnięcia.
+\newline \textbf{Zakończenie:} Po kliknięciu następuje przejście do widoku osiągnięć, gdzie użytkownik ma możliwość sprawdzenia swoich statystyk z odbytych gier.
+\newline\newline \textit{\underline{Scenariusz nr 4}}
+\newline \textbf{Tytuł:} Wybór kategorii pytań
+\newline \textbf{Warunek wejścia:} Użytkownik jest zalogowany i znajduje się w głównym menu.
+\newline \textbf{Przebieg:} Użytkownik w menu głównym klika w Kategorie pytań.
+\newline \textbf{Zakończenie:} Po kliknięciu następuje przejście do widoku kategorii pytań z danej dziedziny wiedzy, gdzie użytkownik wybiera kategorie z jakiej chce odpowiadać.
+\newline\newline \textit{\underline{Scenariusz nr 5}}
+\newline \textbf{Tytuł:} Gra - odpowiadanie na pytania
+\newline \textbf{Warunek wejścia:} Użytkownik wybrał kategorie z jakiej chce odpowiadać.
+\newline \textbf{Przebieg:} Po wybraniu interesującej kategorii, rozpoczyna się gra, w której użytkownikowi ukazuje się losowe pytanie z czterema odpowiedziami do wyboru.   
+\newline \textbf{Zakończenie:} Użytkownik wybiera jego zdaniem poprawną odpowiedź, a następnie następuje weryfikacja zaznaczonej odpowiedzi.
+\newline \textbf{Zakończenie alternatywne:} Może zdarzyć się, że użytkownik nie zaznaczy żadnej z podanych odpowiedzi, wtedy po upływie ustalonego czasu nastąpi weryfikacja odpowiedzi. 
+\newline\newline \textit{\underline{Scenariusz nr 6}}
+\newline \textbf{Tytuł:} Weryfikacja odpowiedzi
+\newline \textbf{Warunek wejścia:} Użytkownik zaznaczył odpowiedź, bądź nie.
+\newline \textbf{Przebieg:} Po wybraniu odpowiedzi, czy też upływie czasu - automatycznie przez system zaznaczana jest prawidłowa odpowiedź.
+\newline \textbf{Zakończenie:} Po weryfikacji generowane jest kolejne pytanie z puli. 
+\newline\newline \textit{\underline{Scenariusz nr 7}}
+\newline \textbf{Tytuł:} Podsumowanie wyniku i zakończenie gry.
+\newline \textbf{Warunek wejścia:} Wyczerpanie się puli pytań
+\newline \textbf{Przebieg:} Po przejściu 10 pytań z danej kategorii oraz weryfikacji ich poprawności następuje koniec gry, po której użytkownikowi wyświetlają się statystyki za rozgrywkę.
+\newline \textbf{Zakończenie:} Po kliknięciu odpowiedniego przycisku następuje przeniesienie do głównego menu, a zdobyte punkty aktualizują się w osiągnięciach profilu.  
+\newline\newline \textit{\underline{Scenariusz nr 8}}
+\newline \textbf{Tytuł:} Przerwanie gry.
+\newline \textbf{Warunek wejścia:} Użytkownik znajduje się w trybie gry.
+\newline \textbf{Przebieg:} Użytkownik podczas rozgrywki ma możliwość przerwania jej w każdej chwili poprzez kliknięcie odpowiedniego przycisku. Gdy to zrobi, gra automatycznie się zakończy, a on znajdzie się w głównym menu. 
+\newline \textbf{Zakończenie:} Po kliknięciu odpowiedniego przycisku następuje przeniesienie do głównego menu, a zdobyte punkty nie ulegają zapisaniu. 
+\newline\newline \textit{\underline{Scenariusz nr 9}}
+\newline \textbf{Tytuł:} Wyjście z aplikacji.
+\newline \textbf{Warunek wejścia:} Użytkownik znajduje się w menu głównym.
+\newline \textbf{Przebieg:} Użytkownik będąc w głównym menu klika przycisk "WYJDŹ"
+\newline \textbf{Zakończenie:} Po kliknięciu następuje zamknięcie aplikacji.
+\newline\newline \textbf{b) Scenariusze administratora.}
+\newline \textit{\underline{Scenariusz nr 1}}
+\newline \textbf{Tytuł:} Logowanie
+\newline \textbf{Warunek wejścia:} Konto posiada uprawnienia administratora.
+\newline \textbf{Przebieg:} Administrator loguje się do systemu, dzięki czemu zyskuje dostęp do funkcji administratorskich.
+\newline \textbf{Zakończenie:} Zalogowanie do konta oraz możliwość zarządzania (m. in. podgląd listy użytkowników).
+
