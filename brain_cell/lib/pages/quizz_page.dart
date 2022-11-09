@@ -7,37 +7,25 @@ import 'package:brain_cell/bloc/query_bloc/query_state/query_state.dart';
 import 'package:brain_cell/bloc/query_bloc/query_state/query_state_init.dart';
 import 'package:brain_cell/models/query_model.dart';
 import 'package:brain_cell/pages/result_page.dart';
+import 'package:brain_cell/querrys/get_querrys.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shimmer/shimmer.dart';
 
-class WelcomePage extends StatefulWidget {
-  const WelcomePage({
+class QuizzPage extends StatefulWidget {
+  const QuizzPage({
     required this.category,
     Key? key,
   }) : super(key: key);
 
   final String category;
   @override
-  State<WelcomePage> createState() => _WelcomePage();
+  State<QuizzPage> createState() => _QuizzPage();
 }
 
-class _WelcomePage extends State<WelcomePage> {
+class _QuizzPage extends State<QuizzPage> {
   int counter = 0;
-
-  Query query = Query([
-    "Odpowedz A dasfasdfasdffasd",
-    "Odpowedz B dasfasdfasdffasd",
-    "Odpowedz C dasfasdfasdffasd",
-    "Odpowedz D dasfasdfasdffasd"
-  ], 0);
-  Query query2 = Query([
-    "Odpowedz E dasfasdfasdffasd",
-    "Odpowedz F dasfasdfasdffasd",
-    "Odpowedz G dasfasdfasdffasd",
-    "Odpowedz H dasfasdfasdffasd"
-  ], 1);
-  List<Query> list = [];
+  GetQuerrys getQuerrys = GetQuerrys();
 
   @override
   Widget build(BuildContext context) {
@@ -49,18 +37,9 @@ class _WelcomePage extends State<WelcomePage> {
             child: BlocBuilder<QueryBloc, QueryState>(
               builder: (context, state) {
                 if (state is QueryInitial) {
-                  context.read<QueryBloc>().add(LoadEvent([
-                        query,
-                        query2,
-                        query,
-                        query,
-                        query2,
-                        query,
-                        query2,
-                        query2,
-                        query2,
-                        query
-                      ]));
+                  context
+                      .read<QueryBloc>()
+                      .add(LoadEvent(getQuerrys.getQuerrys(widget.category)));
                   return shimmer();
                 } else if (state is QueryChanged) {
                   return buildQuiz(state.query, context);
@@ -121,9 +100,9 @@ class _WelcomePage extends State<WelcomePage> {
                 Text("Pytanie $counter / 10 ",
                     style: const TextStyle(
                         fontSize: 17, inherit: false, color: Colors.white)),
-                Expanded(child: SizedBox()),
+                const Expanded(child: SizedBox()),
                 Container(
-                  margin: EdgeInsets.only(right: 10),
+                  margin: const EdgeInsets.only(right: 10),
                   child: Text(
                       "Zdobyłeś ${context.read<QueryBloc>().pointScored} punktów!",
                       style: const TextStyle(
@@ -165,8 +144,8 @@ class _WelcomePage extends State<WelcomePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 padding: const EdgeInsets.all(10),
-                child: const Text("Jakies pytanie tutaj bedzie",
-                    style: TextStyle(
+                child: Text(query.question,
+                    style: const TextStyle(
                         fontSize: 20,
                         inherit: false,
                         color: Colors.black,
@@ -224,9 +203,9 @@ class _WelcomePage extends State<WelcomePage> {
                 Text("Pytanie $counter / 10 ",
                     style: const TextStyle(
                         fontSize: 17, inherit: false, color: Colors.white)),
-                Expanded(child: SizedBox()),
+                const Expanded(child: SizedBox()),
                 Container(
-                  margin: EdgeInsets.only(right: 10),
+                  margin: const EdgeInsets.only(right: 10),
                   child: Text(
                       "Zdobyłeś ${context.read<QueryBloc>().pointScored} punktów!",
                       style: const TextStyle(
@@ -268,8 +247,8 @@ class _WelcomePage extends State<WelcomePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 padding: const EdgeInsets.all(10),
-                child: const Text("Jakies pytanie tutaj bedzie",
-                    style: TextStyle(
+                child: Text(query.question,
+                    style: const TextStyle(
                         fontSize: 20,
                         inherit: false,
                         color: Colors.black,

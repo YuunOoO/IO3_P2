@@ -36,10 +36,10 @@ class _WelcomePage extends State<WelcomePage> {
           ),
           const SpinKitFadingCube(
             color: Colors.white,
-            size: 100.0,
+            size: 80.0,
           ),
           SizedBox(
-            height: MediaQuery.of(context).size.height / 8,
+            height: MediaQuery.of(context).size.height / 10,
           ),
           const Center(
             child: Text(
@@ -47,13 +47,13 @@ class _WelcomePage extends State<WelcomePage> {
               style: TextStyle(
                   color: Colors.black,
                   inherit: false,
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
           ),
           SizedBox(
-            height: MediaQuery.of(context).size.height / 8,
+            height: MediaQuery.of(context).size.height / 10,
           ),
           loginButton(context),
         ],

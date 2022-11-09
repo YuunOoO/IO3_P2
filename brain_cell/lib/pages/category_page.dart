@@ -20,8 +20,12 @@ class _CategoryPage extends State<CategoryPage> {
           const Center(
             child: Text(
               "Wybierz kategorie!",
-              style:
-                  TextStyle(fontSize: 30, inherit: false, color: Colors.purple),
+              style: TextStyle(
+                fontSize: 34,
+                inherit: false,
+                color: Colors.purple,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           GridView.count(
@@ -30,7 +34,7 @@ class _CategoryPage extends State<CategoryPage> {
             padding: const EdgeInsets.all(20),
             shrinkWrap: true, // You won't see infinite size error
             crossAxisSpacing: 14,
-            mainAxisSpacing: 14,
+            mainAxisSpacing: 20,
             crossAxisCount: 2,
             children: [
               category('Geografia'),
@@ -53,12 +57,14 @@ class _CategoryPage extends State<CategoryPage> {
         Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (context) => WelcomePage(category: categoryName)),
+              builder: (context) => QuizzPage(category: categoryName)),
         );
       }),
       child: Container(
+        decoration: const BoxDecoration(
+            color: Color.fromARGB(255, 103, 144, 141),
+            borderRadius: BorderRadius.all(Radius.circular(10))),
         padding: const EdgeInsets.all(8),
-        color: Colors.teal[100],
         child: Center(
           child: Text(
             categoryName,
