@@ -1,60 +1,223 @@
-Filmy:
+KATEGORIA - FILM
+
 W polskiej komedii "Och, Karol 2 " rolę tytułowego Karola zagrał...?
-odpowiedź: Piotr Adamczyk
-Ile już powstało części kultowego filmu z Brucem Willisem " Szklana Pułapka " ?
-odpowiedź: 5
+1. Tomasz Karolak
+2. Piotr Adamczyk
+3. Bogusław Linda
+4. Andrzej Grabowski
+poprawna: Piotr Adamczyk
+
+Ile powstało części kultowego filmu z Brucem Willisem pt." Szklana Pułapka " ?
+1. 2
+2. 3
+3. 4
+4. 5
+poprawna: 5
+
 Kto zagrał rolę trenera Jarząbka w "Misiu" Stanisława Barei ?
-odpowiedź: Jerzy Turek
+1. Stanisław Tym
+2. Krzysztof Kowalewski
+3. Jerzy Turek
+4. Piotr Pręgowski
+poprawna: Jerzy Turek
+
 W filmie "Śnięty Mikołaj" rozwieźć prezenty musi:
-odpowiedź: Tim Allen
+1. Tim Allen
+2. Eric Lloyd
+3. David Krumholtz
+4. Judge Reinhold
+poprawna: Tim Allen
+
 Kto w połowie lat 80 ubiegłego wieku prowadził audycję dla najmłodszych zatytułowaną "Okienko Pankracego" ?
-odpowiedź: Artur Barciś
+1. Marcin Dorociński
+2. Jerzy Stuhr
+3. Cezary Żak
+4. Artur Barciś
+poprawna: Artur Barciś
 
-Muzyka:
-"Mezoteryka" to album studyjny....?
-Odpowiedź: Meza
-Mam chusteczke...- dokoncz piosenke
-Odpowiedź:haftowana
-Do jakiego zespolu nalezal Poul McCartney??
-Odpowiedź: The Beatles
-Kto jest liderem grupy Kombi?
-Odpowiedź: Grzegorz Skawiński
-Jak nazywa się zespół założony przez synów Krzysztofa Cugowskiego-Piotra i Wojciecha Cugowskich?
-Odpowiedź: Bracia
+Jak nazywa się córka Helen i Roberta w filmie "Iniemamocni"?
+1. Róża
+2. Wiola
+3. Laura
+4. Kate
+poprawna: Wiola
 
-Sport:
-Jak długo trwa maraton?
-Odpowiedź: 42.195 kilometrów (26.2 mil)
-Ilu graczy jest w drużynie baseballowej?
-Odpowiedź: gracze 9
-Który kraj wygrał Mistrzostwa Świata 2018?
-Odpowiedź: Francja
-Jaki sport jest uważany za „króla sportu”?
-Odpowiedź: Piłka nożna
-Jakie są dwa narodowe sporty Kanady?
-Odpowiedź: Lacrosse i hokej na lodzie
-Jaka drużyna wygrała pierwszy mecz NBA w 1946 roku?
+Jaki aktor wcielił się w Deadpoola?
+1. T.J. Miller
+2. Ryan Gosling
+3. Ryan Reynolds
+4. Ed Skrein
+poprawna: Ryan Reynolds
 
-Motoryzacja:
-Roomster to model samochodu marki ....?
-odpowiedź: Skoda
-SsangYong to marka samochodów....?
-odpowiedź: koreańskich
-Hyundai Tiburon jest znany w Europie jako
-odpowiedź: Coupe
-Ile powstało już generacji Mitsubishi Lancer Evolution ....?
-odpowiedź: 10
-Berlingo to model samochodu marki....?
-odpowiedź: Citroen
+Jak nazywa się ulica przy której stał dom Harry'ego Pottera?
+1. Diagon Alley
+2. Private Drive
+3. Nora
+4. Grimmauld Place
+poprawna: Private Drive
 
-Nauka:
-Część mózgu kręgowców rozwijająca się ze środkowego pęcherzyka pierwotnego to:
-odpowiedź: śródmózgowie
-Narządy oddechowe niektórych bezkręgowców lądowych, np. owadów to:
-odpowiedź: tchawki
-Rozcieranie czegoś na drobne cząsteczki na proszek za pomocą odpowiednich urządzeń to:
-odpowiedź: przemiał
-Jaka grupa krwi jest uniwersalnym biorcą?
-odpowiedź: AB
-Średnia waga serca człowieka wynosi?
-odpowiedź: 275 gram
+Kto wyreżyserował film "Batman Początek"?
+1. Christopher Nolan
+2. Ridley Scott
+3. Pedro Almodovar
+4. Clint Eastwood
+poprawna: Christopher Nolan
+
+Jak nazywa się statek Jacka Sparrowa?
+1. Czarna flaga
+2. Brązowy bursztyn
+3. Santa Maria
+4. Czarna Perła
+poprawna: Czarna perła
+
+
+KATEGORIA - MUZYKA
+
+"Biała flaga" to przebój:
+1. Perfectu
+2. Budki Suflera
+3. Lady Panku
+4. Republiki
+poprawna: Republiki
+
+Piosenkę "Wojna!" wykonywał zespół:
+1. Piersi
+2. Armia
+3. Brygada Kryzys
+4. Kryzys
+poprawna: Brygada Kryzys  
+
+Komu pierwotnie Beethoven dedykował swoją Trzecią Symfonię (Eroicę)?
+1. Napoleonowi
+2. Aleksandrowi Wielkiemu
+3. Janowi Sobieskiemu
+4. Franciszkowi Józefowi
+poprawna:  Napoleonowi
+
+W ilu oficjalnych singlach składu Męskie Granie Orkiestra śpiewał Dawid Podsiadło? 
+1. Jednym
+2. Dwóch
+3. Trzech
+4. Czterech
+poprawna: trzech
+
+To producent muzyczny pochodzący z Krakowa. Tworzy muzykę klubową, był reprezentantem Polski 
+w 63. Konkursie Piosenki Eurowizji. Tworzył ,wraz z zespołem Golec uOrkiestra (singiel "Górą Ty), 
+czy Edytą Górniak. 
+O kim mowa?
+1. C-Bool
+2. Gromee
+3. DJ Hazel
+4. Tujamo
+poprawna: Gromee
+
+Który z interwałów określa większą odległość pomiędzy liczbą stopni skali muzycznej?
+1. Kwinta
+2. Kwarta
+3. Tercja
+4. Seksta
+poprawna: kwinta
+
+Jak nazywana jest francuska piosenka ludowa, bardzo popularna w latach 60. i 70., 
+która została przetłumaczona na około 140 języków. 
+W Polsce jest nieodłączną częścią przyjęć weselnych.
+1. "Nie liczę godzin i lat"
+2. "Macarena"
+3. "Kaczuchy"
+4. "Lambada"
+poprawna: Kaczuchy
+
+Który angielski muzyk śpiewał w piosence Rudimental pt. "Lay It All On Me" 
+oraz w singlu Taylor Swift "Everything Has Changed"?
+1. Elton John
+2. Ed Sheeran
+3. Sting
+4. Harry Styles
+poprawna: Ed Sheeran
+
+Bębenek bakijski to inaczej:
+1. Tamburyn
+2. Kongi
+3. Bongosy
+4. Trynka
+poprawna: Tamburyn
+
+Który z tych artystów w 2021 r. został odznaczony Fryderykiem za album roku w kategorii Hip-Hop?
+1. Taco Hemingway
+2. PRO8L3M
+3. Quebonafide
+4. Mata
+poprawna: Mata
+
+KATEGORIA GEOGRAFIA
+
+Umowna linia, która łączy obydwa bieguny to:
+1. Południk
+2. Równik
+3. Zwrotnik Raka
+4. Zwrotnik Koziorożca
+poprawna: Południk
+
+Pacyfik to inaczej:
+1. Ocean Spokojny
+2. Ocean Atlantycki
+3. Ocean Indyjski
+4. Ocean Południowy
+poprawna: Ocean Spokojny
+
+Które miasto w Polsce zajmuje drugie miejsce pod względem największej liczby ludności?
+1. Poznań
+2. Kraków
+3. Lódź
+4. Wrocław
+poprawna: Kraków
+
+Z iloma państwami graniczy Polska?
+1. 6
+2. 5
+3. 7
+4. 4
+poprawna: 7
+
+Stolicą Łotwy jest: 
+1. Bukareszt
+2. Bratysława
+3. Wilno
+4. Ryga
+poprawna: Ryga
+
+W którym z poniższych krajów mieszka więcej niż 100 milionów ludzi?
+1. We Francji
+2. W Arabii Saudyjskiej
+3. W Turcji
+4. W Brazylii
+poprawna: W Brazylii
+
+Na jakim kontynencie położona jest Kenia?
+1. W Ameryce Południowej
+2. W Azji
+3. W Afryce
+4. W Ameryce Północnej
+poprawna: W Afryce
+
+Który kraj ma największą na świecie powierzchnię?
+1. Australia
+2. Kanada
+3. Kazachstan
+4. Rosja
+poprawna: Rosja
+
+Który z podanych krajów jest krajem Arabskim? 
+1. Algieria
+2. Azerbejdżan
+3. Uzbekistan
+4. Afganistan
+poprawna: Algieria
+
+Który kraj świata posiada najwyższy nominalny Produkt Krajowy Brutto?
+1. Chiny
+2. Niemcy
+3. Stany Zjednoczone
+4. Korea Południowa
+poprawna: Stany Zjednoczone 
+
