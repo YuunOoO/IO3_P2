@@ -14,48 +14,11 @@ class GetQuerrys {
 
   List<Query> getQuerrys(String category) {
     List<Query> list = [];
-    List<Query> list2;
-
-    Query query = Query(
-      [
-        "Odpowedz A dasfasdfasdffasd",
-        "Odpowedz B dasfasdfasdffasd",
-        "Odpowedz C dasfasdfasdffasd",
-        "Odpowedz D dasfasdfasdffasd"
-      ],
-      0,
-      "Po ile harnas",
-    );
-    Query query2 = Query([
-      "Odpowedz E dasfasdfasdffasd",
-      "Odpowedz F dasfasdfasdffasd",
-      "Odpowedz G dasfasdfasdffasd",
-      "Odpowedz H dasfasdfasdffasd"
-    ], 1, "Po ile zubr");
-
-    list2 = [
-      query,
-      query,
-      query,
-      query,
-      query2,
-      query,
-      query2,
-      query2,
-      query2,
-      query,
-      query,
-      query,
-      query2,
-      query,
-      query2,
-      query2,
-      query2,
-      query
-    ];
+    List<Query> list2 = [];
 
     if (category == 'Geografia') {
       Geografia geografia = Geografia();
+      list2 = geografia.getList();
     } else if (category == 'Matematyka') {
       Matematyka matematyka = Matematyka();
       list2 = matematyka.getList();

@@ -4,60 +4,38 @@ class Fizyka {
   List<Query> getList() {
     List<Query> list = [
       Query([
-        "Bo jest zajebisty",
-        "genialny stworzyciel gatunku luckiego",
-        "Nalezy mu sie jak psu buda",
-        "bo tak"
-      ], 1, "Dlaeczgo Dawid Pasieka powinien dostac nobla z fizyki"),
+        " Ze wschodu na południe",
+        " Z zachodu na wschód",
+        "Ze wschodu na zachód",
+        "Z północy na południe"
+      ], 1, "W którą stronę obraca się ziemia?"),
       Query([
-        "Jak Twoja dziewczyna",
-        "Tak",
-        "Nie",
-        "jest w ksztalcie skorupy zolwia"
-      ], 0, "Czy ziemia jest plaska"),
-      Query(["Beczkowe mocne", "dwa piwa", "za mało", "Nic"], 3,
-          "ile to dwa piwa"),
+        "  Promieniowanie rentgena",
+        "Podczerwień",
+        "Ultrafiolet",
+        "Promieniowanie gamma"
+      ], 2, "Jaki rodzaj promieniowania powoduje oparzenia słoneczne?"),
+      Query([" Atomy", "Protony", "Elektrony", "Neutrony"], 2,
+          "Które z cząstek elementarnych uznawane są za najmniejsze?"),
+      Query(["365 dni", " 24 godziny", "28 dni", " 12 godzin"], 2,
+          "W jakim czasie księżyc dokonuje pełnego obiegu wokół ziemi? "),
+      Query([" Stal ", "Guma", "Woda", "Powietrze"], 0,
+          "Dźwięk porusza się z różną prędkością przez materiały. Przez co przejdzie najszybciej?  "),
+      Query(["Siły", "Natężenia prądu", "Prędkości", " Temperatury"], 3,
+          "Czego jednostką miary w układzie SI jest Newton [N]?"),
+      Query(["Resublimacja", " Krzepnięcie", "Topnienie", " Nie jest możliwe"],
+          0, "Przejście ze stanu gazowego w stan stały to:"),
+      Query(["Mechaniczna", "Potencjalną", "Cheiczną", "Kinetyczną"], 3,
+          "Jaką energię posiada stojący człowiek?"),
+      Query(["Frakcjowanie", "Dyfrakcja", " Refrakcja", " Retrakcja"], 2,
+          "Jak nazywa się zjawisko ugięcia się fali świetlnej podczas przechodzenia z jednego ośrodka do drugiego? "),
       Query([
-        "prostoliniowa",
-        "3pixele",
-        "dwa kulfony na metr kwadratowy",
-        "Przestan sie puszczac szmato"
-      ], 3, "Puszczasz sie z rowni pochylej 3stopnie jaka predkosc po 10 sec"),
-      Query([
-        "jedna sesona na sekunde ",
-        "nie wyladuje",
-        "srodkowoeuropejski",
-        "3 niutony"
+        "Przyspieszenie poruszającego się obiektu",
+        "Prędkość poruszającego się obiektu",
+        " Częstotliwość fal",
+        " Prędkość światła w próżni"
       ], 3,
-          "Jaki jest czas wyladowania samolotu boeing wiedzac ze kola to ma niebieznikowane"),
-      Query([
-        "prostoliniowa",
-        "3pixele",
-        "dwa kulfony na metr kwadratowy",
-        "Przestan sie puszczac szmato"
-      ], 3, "Puszczasz sie z rowni pochylej 3stopnie jaka predkosc po 10 sec"),
-      Query(["8.0", "eight", "8", "osiem"], 1,
-          "Ile piw mozna wypic okazjonalnie w piatunio"),
-      Query([
-        "niemozzliwe",
-        "Badoski masz popsutom wage",
-        "Faza ksiezyca - zbyt duze przyciaganie",
-        "Nie"
-      ], 2, "Czy mozna przybrac 10 kg wagi w 10 sekund"),
-      Query([
-        "nie niewiem",
-        "przegrzewa sie",
-        "hakerzy rosyjscy",
-        "zaplac za prad"
-      ], 3, "A komputer to czemu sie wylacza??"),
-      Query([
-        "1 rok nowej ery",
-        "dla ciebie pan hamie",
-        "przestepnym",
-        "kalendarzowym"
-      ], 3, "w ktorym roku urodzil sie kaczynski"),
-      Query(["Kargol", "Brutus", "JanusKorwinMikke", "labrador"], 0,
-          "jak ma naimie kot Jarka"),
+          "Równanie E = mc^2 pochodzi z teorii względności Einsteina. Co oznacza w nim literka c?"),
     ];
 
     return list;
